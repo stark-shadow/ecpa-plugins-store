@@ -34,3 +34,5 @@ ECPA 精选插件目录与自制插件的发布索引仓库。
 - 新增插件按 `id` 升序追加，不改动已有条目。
 - `version` 必须与对应仓库的 release tag 一致（去掉前缀 `v`）。
 - 中英文描述同时提供，`locales.zh-CN.description` 为必填。
+
+<!-- pi sync check -->
