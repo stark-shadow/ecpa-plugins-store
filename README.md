@@ -1,36 +1,9 @@
-# ECPA Plugins Store
 
-ECPA 精选插件目录与自制插件的发布索引仓库。
+## 发布流程
 
-- `registry.json` — 插件目录（schema_version 1）
+1. 代码在 E5 上编写、构建、测试完成。
+2. 把成品文件复制到 Pi 的 `~/eps-inbox/`。
+3. 在 Pi 上执行 `eps-push --from ~/eps-inbox "<commit message>"`。
+4. 脚本负责 stage / commit / push，不做任何编辑。
 
-## 结构
-
-```json
-{
-  "schema_version": 1,
-  "plugins": [
-    {
-      "id": "plugin-id",
-      "name": "Display Name",
-      "description": "English description",
-      "author": "author",
-      "version": "1.0.0",
-      "repository": "https://github.com/owner/repo",
-      "logo": "https://...",
-      "homepage": "https://...",
-      "license": "MIT",
-      "tags": ["Interceptor"],
-      "locales": {
-        "zh-CN": { "description": "中文描述" }
-      }
-    }
-  ]
-}
-```
-
-## 约定
-
-- 新增插件按 `id` 升序追加，不改动已有条目。
-- `version` 必须与对应仓库的 release tag 一致（去掉前缀 `v`）。
-- 中英文描述同时提供，`locales.zh-CN.description` 为必填。
+Pi 只承担提交与推送，编辑、构建、测试一律在 E5 完成。
