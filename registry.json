@@ -23,6 +23,29 @@
           "description": "将 Google AI Studio 的 Playground 与 Build 双通道以 OpenAI / Responses / Claude / Gemini 四种协议对外提供，内置进程中 SpiderMonkey BotGuard WAA 签名引擎，支持多账号权益分级与冷却调度，并可在控制台一键拉起本机 Chrome 完成 OAuth 登录。"
         }
       }
+    },
+    {
+      "id": "freetier",
+      "name": "FreeTier 2API",
+      "description": "CLIProxyAPI native plugin that turns free-tier quotas from 15 AI coding assistants (WorkBuddy, AutoClaw, Qoder, Raccoon, OpenCode ZEN, Cline, ZCode, Trae, CodeArts, MiniMax Code) into OpenAI, Responses and Anthropic APIs, with an embedded web console for OAuth/API-key accounts, quota tracking, check-in and cross-provider load balancing.",
+      "author": "cxy2730",
+      "version": "0.1.52",
+      "repository": "https://github.com/cxy2730/CLIProxyAPI-freetier2api-plugin",
+      "logo": "https://avatars.githubusercontent.com/u/49294717?s=64&v=4",
+      "homepage": "https://github.com/cxy2730/CLIProxyAPI-freetier2api-plugin",
+      "license": "MIT",
+      "tags": [
+        "Provider",
+        "Auth",
+        "Scheduler",
+        "Quota",
+        "Management"
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "将 15 个国内外免费额度 AI 编程助手（WorkBuddy、AutoClaw、Qoder、小浣熊、OpenCode ZEN、Cline、ZCode、Trae、CodeArts、MiniMax Code）统一接入为 OpenAI / Responses / Anthropic 接口，内置 Web 控制台管理 OAuth 与 API Key 账号、额度可视化、自动签到，并支持跨供应商同名模型负载均衡与故障转移。"
+        }
+      }
     }
   ]
 }
