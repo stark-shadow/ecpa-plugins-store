@@ -22,6 +22,9 @@
         "zh-CN": {
           "description": "将 Google AI Studio 的 Playground 与 Build 双通道以 OpenAI / Responses / Claude / Gemini 四种协议对外提供，内置进程中 SpiderMonkey BotGuard WAA 签名引擎，支持多账号权益分级与冷却调度，并可在控制台一键拉起本机 Chrome 完成 OAuth 登录。"
         }
+      },
+      "install": {
+        "type": "github-release"
       }
     }
   ]
