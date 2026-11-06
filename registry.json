@@ -19,6 +19,29 @@
           "description": "在现有 TLS 端口上放行本机回环的明文 HTTP 请求，外部客户端仍强制使用 HTTPS。"
         }
       }
+    },
+    {
+      "id": "aistudio2api",
+      "name": "AIStudio2API",
+      "description": "CLIProxyAPI native C ABI plugin that exposes Google AI Studio Playground and Build channels as OpenAI, Responses, Claude and Gemini APIs, with an in-process SpiderMonkey BotGuard WAA engine and multi-account cooldown-aware scheduling.",
+      "author": "jianli9158",
+      "version": "1.1.5",
+      "repository": "https://github.com/jianli9158/cpa-plugin-aistudio2api",
+      "logo": "https://avatars.githubusercontent.com/u/27762760?s=64&v=4",
+      "homepage": "https://github.com/jianli9158/cpa-plugin-aistudio2api",
+      "license": "MIT",
+      "tags": [
+        "Provider",
+        "Auth",
+        "Scheduler",
+        "Quota",
+        "Management"
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "将 Google AI Studio 的 Playground 与 Build 双通道以 OpenAI / Responses / Claude / Gemini 四种协议对外提供，内置进程中 SpiderMonkey BotGuard WAA 签名引擎，支持多账号权益分级与冷却调度，并可在控制台一键拉起本机 Chrome 完成 OAuth 登录。"
+        }
+      }
     }
   ]
 }
