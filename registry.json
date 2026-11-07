@@ -46,6 +46,59 @@
           "description": "将 15 个国内外免费额度 AI 编程助手（WorkBuddy、AutoClaw、Qoder、小浣熊、OpenCode ZEN、Cline、ZCode、Trae、CodeArts、MiniMax Code）统一接入为 OpenAI / Responses / Anthropic 接口，内置 Web 控制台管理 OAuth 与 API Key 账号、额度可视化、自动签到，并支持跨供应商同名模型负载均衡与故障转移。"
         }
       }
+    },
+    {
+      "id": "omc-zcode-oauth",
+      "name": "OMC ZCode OAuth",
+      "description": "Native ZCode provider for CLIProxyAPI with Z.ai/BigModel OAuth, powered by the Oh-My-CPA ecosystem. Features dual-portal login, model discovery, Anthropic Messages execution, Coding Plan and gift routing, and normalized quota.",
+      "author": "JUNZE",
+      "version": "0.2.2",
+      "repository": "https://github.com/WizisCool/omc-zcode-oauth",
+      "logo": "https://raw.githubusercontent.com/WizisCool/omc-zcode-oauth/refs/heads/main/assets/logo.png",
+      "homepage": "https://github.com/WizisCool/omc-zcode-oauth",
+      "license": "MIT",
+      "tags": [
+        "Provider",
+        "OAuth",
+        "Quota",
+        "GLM",
+        "ZCode",
+        "Oh-My-CPA"
+      ],
+      "install": {
+        "type": "github-release"
+      },
+      "locales": {
+        "zh-CN": {
+          "description": "CLIProxyAPI 原生 ZCode 供应商，支持 Z.ai / BigModel 双站点 OAuth 登录、模型发现、Anthropic Messages 执行、Coding Plan 与赠送额度路由，以及归一化额度展示，属于 Oh-My-CPA 生态。"
+        }
+      }
+    },
+    {
+      "id": "omc-qoder-oauth",
+      "name": "OMC Qoder OAuth",
+      "description": "Native Qoder provider for CLIProxyAPI with Qoder and Qoder CN OAuth, powered by the Oh-My-CPA ecosystem. Features dual-portal login, model discovery, OpenAI-compatible execution, tool calls and normalized quota.",
+      "author": "JUNZE",
+      "version": "0.1.1",
+      "repository": "https://github.com/WizisCool/omc-qoder-oauth",
+      "logo": "https://raw.githubusercontent.com/WizisCool/omc-qoder-oauth/refs/heads/main/assets/qoder-color.svg",
+      "homepage": "https://github.com/WizisCool/omc-qoder-oauth",
+      "license": "MIT",
+      "tags": [
+        "Provider",
+        "OAuth",
+        "Quota",
+        "Qoder",
+        "Oh-My-CPA"
+      ],
+      "install": {
+        "type": "github-release"
+      },
+      "locales": {
+        "zh-CN": {
+          "description": "CLIProxyAPI 原生 Qoder 供应商，支持 Qoder 与 Qoder CN 双站点 OAuth 登录、模型发现、OpenAI 兼容执行与工具调用，以及归一化额度展示，属于 Oh-My-CPA 生态。"
+        }
+      }
     }
   ]
 }
