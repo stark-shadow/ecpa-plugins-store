@@ -79,7 +79,7 @@
       "name": "OMC Qoder OAuth",
       "description": "Native Qoder provider for CLIProxyAPI with Qoder and Qoder CN OAuth, powered by the Oh-My-CPA ecosystem. Features dual-portal login, model discovery, OpenAI-compatible execution, tool calls and normalized quota.",
       "author": "JUNZE",
-      "version": "0.1.1",
+      "version": "0.2.0",
       "repository": "https://github.com/omc-community/omc-qoder-oauth",
       "logo": "https://raw.githubusercontent.com/omc-community/omc-qoder-oauth/refs/heads/main/assets/qoder-color.svg",
       "homepage": "https://github.com/omc-community/omc-qoder-oauth",
@@ -97,6 +97,32 @@
       "locales": {
         "zh-CN": {
           "description": "CLIProxyAPI 原生 Qoder 供应商，支持 Qoder 与 Qoder CN 双站点 OAuth 登录、模型发现、OpenAI 兼容执行与工具调用，以及归一化额度展示，属于 Oh-My-CPA 生态。"
+        }
+      }
+    },
+    {
+      "id": "omc-workbuddy-oauth",
+      "name": "OMC WorkBuddy OAuth",
+      "description": "Native WorkBuddy and WorkBuddy AI provider for CLIProxyAPI with OAuth login and normalized quota, powered by the Oh-My-CPA ecosystem.",
+      "author": "JUNZE",
+      "version": "0.1.2",
+      "repository": "https://github.com/omc-community/omc-workbuddy-oauth",
+      "logo": "https://raw.githubusercontent.com/omc-community/omc-workbuddy-oauth/refs/heads/main/assets/workbuddy.svg",
+      "homepage": "https://github.com/omc-community/omc-workbuddy-oauth",
+      "license": "MIT",
+      "tags": [
+        "Provider",
+        "OAuth",
+        "Quota",
+        "WorkBuddy",
+        "Oh-My-CPA"
+      ],
+      "install": {
+        "type": "github-release"
+      },
+      "locales": {
+        "zh-CN": {
+          "description": "CLIProxyAPI 原生 WorkBuddy 供应商，支持 WorkBuddy 与 WorkBuddy AI OAuth 登录、模型发现与归一化额度展示，属于 Oh-My-CPA 生态。"
         }
       }
     }
