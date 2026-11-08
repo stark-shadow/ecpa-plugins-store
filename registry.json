@@ -1,60 +1,46 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "plugins": [
     {
-      "id": "aistudio2api",
-      "name": "AIStudio2API",
-      "description": "CLIProxyAPI native C ABI plugin that exposes Google AI Studio Playground and Build channels as OpenAI, Responses, Claude and Gemini APIs, with an in-process SpiderMonkey BotGuard WAA engine and multi-account cooldown-aware scheduling.",
-      "author": "jianli9158",
-      "version": "1.1.5",
-      "repository": "https://github.com/jianli9158/cpa-plugin-aistudio2api",
-      "logo": "https://avatars.githubusercontent.com/u/27762760?s=64&v=4",
-      "homepage": "https://github.com/jianli9158/cpa-plugin-aistudio2api",
+      "id": "omc-workbuddy-oauth",
+      "name": "OMC WorkBuddy OAuth",
+      "description": "Native WorkBuddy provider for CLIProxyAPI with WorkBuddy and WorkBuddy AI OAuth, model discovery, OpenAI-compatible execution, and normalized quota. Developed as part of the Oh-My-CPA ecosystem.",
+      "author": "JUNZE",
+      "version": "0.1.8",
+      "repository": "https://github.com/omc-community/omc-workbuddy-oauth",
+      "logo": "https://raw.githubusercontent.com/omc-community/omc-workbuddy-oauth/main/assets/logo.png",
+      "homepage": "https://github.com/omc-community/omc-workbuddy-oauth",
       "license": "MIT",
       "tags": [
         "Provider",
-        "Auth",
-        "Scheduler",
+        "OAuth",
         "Quota",
-        "Management"
+        "WorkBuddy",
+        "OMC"
       ],
       "locales": {
         "zh-CN": {
-          "description": "将 Google AI Studio 的 Playground 与 Build 双通道以 OpenAI / Responses / Claude / Gemini 四种协议对外提供，内置进程中 SpiderMonkey BotGuard WAA 签名引擎，支持多账号权益分级与冷却调度，并可在控制台一键拉起本机 Chrome 完成 OAuth 登录。"
+          "description": "CLIProxyAPI 的原生 WorkBuddy 提供商插件，支持 WorkBuddy 与 WorkBuddy AI 双入口 OAuth 登录、模型发现、OpenAI 兼容请求与工具调用，以及标准化配额展示。"
+        },
+        "zh-Hant": {
+          "description": "CLIProxyAPI 的原生 WorkBuddy 提供者外掛，支援 WorkBuddy 與 WorkBuddy AI 雙入口 OAuth 登入、模型探索、OpenAI 相容請求與工具呼叫，以及標準化配額顯示。"
+        },
+        "ms": {
+          "description": "Penyedia WorkBuddy asli untuk CLIProxyAPI dengan log masuk OAuth dwi-portal WorkBuddy dan WorkBuddy AI, penemuan model, pelaksanaan serasi OpenAI, panggilan alat, serta kuota terselaras."
         }
-      }
-    },
-    {
-      "id": "freetier",
-      "name": "FreeTier 2API",
-      "description": "CLIProxyAPI native plugin that turns free-tier quotas from 15 AI coding assistants (WorkBuddy, AutoClaw, Qoder, Raccoon, OpenCode ZEN, Cline, ZCode, Trae, CodeArts, MiniMax Code) into OpenAI, Responses and Anthropic APIs, with an embedded web console for OAuth/API-key accounts, quota tracking, check-in and cross-provider load balancing.",
-      "author": "cxy2730",
-      "version": "0.1.52",
-      "repository": "https://github.com/cxy2730/CLIProxyAPI-freetier2api-plugin",
-      "logo": "https://avatars.githubusercontent.com/u/49294717?s=64&v=4",
-      "homepage": "https://github.com/cxy2730/CLIProxyAPI-freetier2api-plugin",
-      "license": "MIT",
-      "tags": [
-        "Provider",
-        "Auth",
-        "Scheduler",
-        "Quota",
-        "Management"
-      ],
-      "locales": {
-        "zh-CN": {
-          "description": "将 15 个国内外免费额度 AI 编程助手（WorkBuddy、AutoClaw、Qoder、小浣熊、OpenCode ZEN、Cline、ZCode、Trae、CodeArts、MiniMax Code）统一接入为 OpenAI / Responses / Anthropic 接口，内置 Web 控制台管理 OAuth 与 API Key 账号、额度可视化、自动签到，并支持跨供应商同名模型负载均衡与故障转移。"
-        }
+      },
+      "install": {
+        "type": "github-release"
       }
     },
     {
       "id": "omc-zcode-oauth",
       "name": "OMC ZCode OAuth",
-      "description": "Native ZCode provider for CLIProxyAPI with Z.ai/BigModel OAuth, powered by the Oh-My-CPA ecosystem. Features dual-portal login, model discovery, Anthropic Messages execution, Coding Plan and gift routing, and normalized quota.",
+      "description": "Native ZCode provider for CLIProxyAPI with dual-portal Z.ai / BigModel OAuth login, model discovery, Anthropic Messages execution, Coding Plan and gift routing, and normalized quota. Developed as part of the Oh-My-CPA ecosystem.",
       "author": "JUNZE",
       "version": "0.2.3",
       "repository": "https://github.com/omc-community/omc-zcode-oauth",
-      "logo": "https://raw.githubusercontent.com/omc-community/omc-zcode-oauth/refs/heads/main/assets/logo.png",
+      "logo": "https://raw.githubusercontent.com/omc-community/omc-zcode-oauth/main/assets/logo.png",
       "homepage": "https://github.com/omc-community/omc-zcode-oauth",
       "license": "MIT",
       "tags": [
@@ -63,15 +49,21 @@
         "Quota",
         "GLM",
         "ZCode",
-        "Oh-My-CPA"
+        "OMC"
       ],
-      "install": {
-        "type": "github-release"
-      },
       "locales": {
         "zh-CN": {
-          "description": "CLIProxyAPI 原生 ZCode 供应商，支持 Z.ai / BigModel 双站点 OAuth 登录、模型发现、Anthropic Messages 执行、Coding Plan 与赠送额度路由，以及归一化额度展示，属于 Oh-My-CPA 生态。"
+          "description": "CLIProxyAPI 的原生 ZCode 提供商插件，支持 Z.ai / BigModel 双入口 OAuth 登录、模型发现、Anthropic Messages 请求、Coding Plan 与赠送额度路由，以及标准化配额展示。"
+        },
+        "zh-Hant": {
+          "description": "CLIProxyAPI 的原生 ZCode 提供者外掛，支援 Z.ai / BigModel 雙入口 OAuth 登入、模型探索、Anthropic Messages 請求、Coding Plan 與贈送額度路由，以及標準化配額顯示。"
+        },
+        "ms": {
+          "description": "Penyedia ZCode asli untuk CLIProxyAPI dengan log masuk OAuth dwi-portal Z.ai / BigModel, penemuan model, pelaksanaan Anthropic Messages, penghalaan Coding Plan dan hadiah, serta kuota terselaras."
         }
+      },
+      "install": {
+        "type": "github-release"
       }
     },
     {
@@ -81,7 +73,7 @@
       "author": "JUNZE",
       "version": "0.2.2",
       "repository": "https://github.com/omc-community/omc-qoder-oauth",
-      "logo": "https://raw.githubusercontent.com/omc-community/omc-qoder-oauth/refs/heads/main/assets/qoder-color.svg",
+      "logo": "https://raw.githubusercontent.com/omc-community/omc-qoder-oauth/main/assets/logo.png",
       "homepage": "https://github.com/omc-community/omc-qoder-oauth",
       "license": "MIT",
       "tags": [
@@ -89,41 +81,85 @@
         "OAuth",
         "Quota",
         "Qoder",
-        "Oh-My-CPA"
+        "OMC"
       ],
-      "install": {
-        "type": "github-release"
-      },
       "locales": {
         "zh-CN": {
-          "description": "CLIProxyAPI 原生 Qoder 供应商，支持 Qoder 与 Qoder CN 双站点 OAuth 登录、模型发现、OpenAI 兼容执行与工具调用，以及归一化额度展示，属于 Oh-My-CPA 生态。"
+          "description": "CLIProxyAPI 的原生 Qoder 提供商插件，支持 Qoder 与 Qoder CN 双入口 OAuth 登录、模型发现、OpenAI 兼容请求与工具调用，以及标准化配额展示。"
+        },
+        "zh-Hant": {
+          "description": "CLIProxyAPI 的原生 Qoder 提供者外掛，支援 Qoder 與 Qoder CN 雙入口 OAuth 登入、模型探索、OpenAI 相容請求与工具呼叫，以及標準化配額顯示。"
+        },
+        "ms": {
+          "description": "Penyedia Qoder asli untuk CLIProxyAPI dengan log masuk OAuth dwi-portal Qoder dan Qoder CN, penemuan model, pelaksanaan serasi OpenAI, panggilan alat, serta kuota terselaras."
         }
+      },
+      "install": {
+        "type": "github-release"
       }
     },
     {
-      "id": "omc-workbuddy-oauth",
-      "name": "OMC WorkBuddy OAuth",
-      "description": "Native WorkBuddy and WorkBuddy AI provider for CLIProxyAPI with OAuth login and normalized quota, powered by the Oh-My-CPA ecosystem.",
+      "id": "omc-trae-oauth",
+      "name": "OMC Trae OAuth",
+      "description": "Native Trae provider for CLIProxyAPI with Trae and Trae CN browser OAuth, model discovery, OpenAI-compatible execution with tool calls, and normalized quota. Developed as part of the Oh-My-CPA ecosystem.",
       "author": "JUNZE",
-      "version": "0.1.8",
-      "repository": "https://github.com/omc-community/omc-workbuddy-oauth",
-      "logo": "https://raw.githubusercontent.com/omc-community/omc-workbuddy-oauth/refs/heads/main/assets/workbuddy.svg",
-      "homepage": "https://github.com/omc-community/omc-workbuddy-oauth",
+      "version": "0.1.0",
+      "repository": "https://github.com/omc-community/omc-trae-oauth",
+      "logo": "https://raw.githubusercontent.com/omc-community/omc-trae-oauth/main/assets/logo.png",
+      "homepage": "https://github.com/omc-community/omc-trae-oauth",
       "license": "MIT",
       "tags": [
         "Provider",
         "OAuth",
         "Quota",
-        "WorkBuddy",
-        "Oh-My-CPA"
+        "Trae",
+        "OMC"
       ],
-      "install": {
-        "type": "github-release"
-      },
       "locales": {
         "zh-CN": {
-          "description": "CLIProxyAPI 原生 WorkBuddy 供应商，支持 WorkBuddy 与 WorkBuddy AI OAuth 登录、模型发现与归一化额度展示，属于 Oh-My-CPA 生态。"
+          "description": "CLIProxyAPI 的原生 Trae 提供商插件，支持 Trae 与 Trae CN 双入口浏览器 OAuth 登录、模型发现、OpenAI 兼容请求与工具调用，以及标准化配额展示。"
+        },
+        "zh-Hant": {
+          "description": "CLIProxyAPI 的原生 Trae 提供者外掛，支援 Trae 與 Trae CN 雙入口瀏覽器 OAuth 登入、模型探索、OpenAI 相容請求與工具呼叫，以及標準化配額顯示。"
+        },
+        "ms": {
+          "description": "Penyedia Trae asli untuk CLIProxyAPI dengan log masuk OAuth pelayar Trae dan Trae CN, penemuan model, pelaksanaan serasi OpenAI dengan panggilan alat, serta kuota terselaras."
         }
+      },
+      "install": {
+        "type": "github-release"
+      }
+    },
+    {
+      "id": "omc-opencode-zen-free",
+      "name": "OMC OpenCode Zen Free",
+      "description": "OpenCode Zen's free models for CLIProxyAPI with keyless public-credential sign-in, live free-model discovery, OpenCode-identity OpenAI-compatible execution, and preserved tool calls. Developed as part of the Oh-My-CPA ecosystem.",
+      "author": "JUNZE",
+      "version": "0.1.2",
+      "repository": "https://github.com/omc-community/omc-opencode-zen-free",
+      "logo": "https://raw.githubusercontent.com/omc-community/omc-opencode-zen-free/main/assets/logo.png",
+      "homepage": "https://github.com/omc-community/omc-opencode-zen-free",
+      "license": "MIT",
+      "tags": [
+        "Provider",
+        "Free",
+        "OpenCode",
+        "Zen",
+        "OMC"
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "CLIProxyAPI 的 OpenCode Zen 免费模型提供商插件，支持 public 凭证免密钥登录、免费模型实时发现、OpenCode 身份的 OpenAI 兼容请求，以及工具调用保留。"
+        },
+        "zh-Hant": {
+          "description": "CLIProxyAPI 的 OpenCode Zen 免費模型提供者外掛，支援 public 憑證免金鑰登入、免費模型即時探索、OpenCode 身分的 OpenAI 相容請求，以及工具呼叫保留。"
+        },
+        "ms": {
+          "description": "Model percuma OpenCode Zen untuk CLIProxyAPI dengan log masuk kredensial awam tanpa kunci, penemuan model percuma langsung, pelaksanaan serasi OpenAI dengan identiti OpenCode, dan panggilan alat yang dikekalkan."
+        }
+      },
+      "install": {
+        "type": "github-release"
       }
     }
   ]
