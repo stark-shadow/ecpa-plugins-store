@@ -27,7 +27,7 @@ one click from the Plugin Store tab and from the ECPA Featured tab.
 
 ```json
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "plugins": [
     {
       "id": "sample-provider",
@@ -67,7 +67,7 @@ download information.
 
 ## Validation Rules
 
-- `schema_version` must be `1`.
+- `schema_version` is `2`. A `github-release` entry may state `"install": {"type": "github-release"}` (schema v1 rejects that shape, so v2 is required once any entry carries it).
 - `id` must start with an ASCII letter or digit, then use only ASCII letters,
   digits, `.`, `_` or `-`, up to 128 characters total.
 - `id` values must be unique.
