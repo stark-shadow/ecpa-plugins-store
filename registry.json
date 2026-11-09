@@ -232,13 +232,13 @@
       ]
     },
     {
-      "id": "cpa-plugin-perplexity",
+      "id": "perplexity",
       "name": "Perplexity Web",
       "description": "Perplexity web (perplexity.ai) as an OpenAI-compatible provider: model catalog, streaming answers with sources, and normalized quota. Import a signed-in session cookie from the plugin panel.",
       "author": "lzt404",
       "version": "1.0.0",
       "repository": "https://github.com/lzt404/cpa-plugin-perplexity",
-      "logo": "https://raw.githubusercontent.com/lzt404/cpa-plugin-perplexity/main/assets/logo.png",
+      "logo": "https://raw.githubusercontent.com/lzt404/cpa-plugin-perplexity/main/assets/logo.svg",
       "homepage": "https://github.com/lzt404/cpa-plugin-perplexity",
       "license": "MIT",
       "tags": [
