@@ -234,23 +234,24 @@
     {
       "id": "perplexity",
       "name": "Perplexity Web",
-      "description": "Perplexity web (perplexity.ai) as an OpenAI-compatible provider: model catalog, streaming answers with sources, and normalized quota. Import a signed-in session cookie from the plugin panel.",
+      "description": "Perplexity web (perplexity.ai) as an OpenAI-compatible provider: model catalog, streaming answers with sources, normalized quota, and one-click browser session login.",
       "author": "lzt404",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "repository": "https://github.com/lzt404/cpa-plugin-perplexity",
       "logo": "https://raw.githubusercontent.com/lzt404/cpa-plugin-perplexity/main/assets/logo.svg",
       "homepage": "https://github.com/lzt404/cpa-plugin-perplexity",
       "license": "MIT",
       "tags": [
+        "Login",
+        "Perplexity",
         "Provider",
-        "Web",
-        "Search",
         "Quota",
-        "Perplexity"
+        "Search",
+        "Web"
       ],
       "locales": {
         "zh-CN": {
-          "description": "把 Perplexity 网页版（perplexity.ai）接入为 OpenAI 兼容提供商的 CLIProxyAPI 原生插件：真实模型目录、带来源的流式回答，以及标准化配额展示。在插件面板导入已登录的会话 Cookie 即可使用。"
+          "description": "把 Perplexity 网页版（perplexity.ai）接入为 OpenAI 兼容提供商的 CLIProxyAPI 原生插件：真实模型目录、带来源的流式回答、标准化配额，以及一键浏览器会话登录。"
         },
         "zh-Hant": {
           "description": "將 Perplexity 網頁版（perplexity.ai）接入為 OpenAI 相容供應商的 CLIProxyAPI 原生外掛：真實模型目錄、附來源的串流回答，以及標準化配額顯示。在外掛面板匯入已登入的 Session Cookie 即可使用。"
