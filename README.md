@@ -165,6 +165,30 @@ open(p,'w').write(json.dumps(d,ensure_ascii=False,indent=2)+'\n')
 PY
 ```
 
+## Automated Version Sync
+
+`eps-registry-sync.timer` runs `~/bin/eps-sync-upstream` twice an hour
+(`:08` and `:38`, with a randomised delay). It queries every entry's
+`releases/latest` through E5 (anonymous GitHub API calls from the Pi are
+rate-limited), compares the tag with the declared `version`, and — only when a
+release is compliant — rewrites `version` and calls `eps-push`.
+
+An entry is skipped, with a logged warning, when the latest release is a
+prerelease, lacks `checksums.txt`, or has no `<id>_<version>_<goos>_<goarch>.zip`.
+Nothing is ever removed, so entries the upstream organisation does not carry are
+untouched.
+
+```bash
+systemctl --user list-timers eps-registry-sync.timer
+systemctl --user start eps-registry-sync.service   # run now
+tail -20 ~/logs/eps-sync.log
+cat ~/.local/state/eps-sync/last-report.json       # what the last run did
+~/bin/eps-sync-upstream --dry-run                  # preview, no push
+```
+
+`repository` renames are reported as warnings instead of being rewritten: moving
+an entry to a new owner is a judgement call, not a version bump.
+
 ## Publishing
 
 This checkout lives only on the Raspberry Pi push host:
