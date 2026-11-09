@@ -54,6 +54,35 @@
       }
     },
     {
+      "id": "doujie-oauth",
+      "name": "Doujie OAuth",
+      "description": "Unofficial Doujie (doubao) provider for CLIProxyAPI: explicit domestic, Dola international QR sign-in entries plus Windows desktop session import. Adds model discovery, native Anthropic Messages, OpenAI Chat Completions and OpenAI Responses execution, 5h/7d quota windows and reset cards. Regions never switch automatically. Not affiliated with any commercial trademark.",
+      "author": "wangxiaoshuai136",
+      "version": "0.1.1",
+      "repository": "https://github.com/wangxiaoshuai136/doujie-oauth",
+      "logo": "https://raw.githubusercontent.com/wangxiaoshuai136/doujie-oauth/main/assets/logo.png",
+      "homepage": "https://github.com/wangxiaoshuai136/doujie-oauth",
+      "license": "MIT",
+      "tags": [
+        "Provider",
+        "OAuth",
+        "Quota",
+        "Doubao",
+        "Dola"
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "非官方豆姐（Doujie）提供商插件：新增 doubao provider，提供国内版、Dola 国际版两个独立扫码入口以及 Windows 桌面会话导入，支持模型发现、Anthropic Messages、OpenAI Chat Completions 与 Responses 原生执行，并展示真实 5h/7d 配额窗口与重置卡核销。地区不会自动切换；与相关公司及商标无隶属或背书关系。"
+        },
+        "zh-TW": {
+          "description": "非官方豆姐（Doujie）提供者外掛：新增 doubao provider，提供國內版與 Dola 國際版兩個獨立掃碼入口，以及 Windows 桌面工作階段匯入，支援模型探索、Anthropic Messages、OpenAI Chat Completions 與 Responses 原生執行，並顯示真實 5h/7d 配額視窗與重置卡。地區不會自動切換；與相關公司及商標無隸屬或背書關係。"
+        }
+      },
+      "install": {
+        "type": "github-release"
+      }
+    },
+    {
       "id": "omc-workbuddy-oauth",
       "name": "OMC WorkBuddy OAuth",
       "description": "Native WorkBuddy provider for CLIProxyAPI with WorkBuddy and WorkBuddy AI OAuth, model discovery, OpenAI-compatible execution, and normalized quota. Developed as part of the Oh-My-CPA ecosystem.",
