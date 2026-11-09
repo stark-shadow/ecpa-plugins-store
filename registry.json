@@ -58,7 +58,7 @@
       "name": "Doujie OAuth",
       "description": "Unofficial Doujie (doubao) provider for CLIProxyAPI: explicit domestic, Dola international QR sign-in entries plus Windows desktop session import. Adds model discovery, native Anthropic Messages, OpenAI Chat Completions and OpenAI Responses execution, 5h/7d quota windows and reset cards. Regions never switch automatically. Not affiliated with any commercial trademark.",
       "author": "wangxiaoshuai136",
-      "version": "0.1.1",
+      "version": "0.1.6",
       "repository": "https://github.com/wangxiaoshuai136/doujie-oauth",
       "logo": "https://raw.githubusercontent.com/wangxiaoshuai136/doujie-oauth/main/assets/logo.png",
       "homepage": "https://github.com/wangxiaoshuai136/doujie-oauth",
