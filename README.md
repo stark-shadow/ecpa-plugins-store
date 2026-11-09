@@ -8,6 +8,28 @@ so any entry can move between the two stores without rewriting.
 This repository maintains **only `registry.json`**. Plugin binaries, checksums
 and release notes stay in each plugin author's own GitHub repository.
 
+## Maintenance Policy
+
+**This registry is maintained by hand. It is not a mirror of anyone else's
+store.**
+
+`omc-community/omc-plugins` publishes its own combined registry; treat it as a
+source of facts about *their* entries (name, description, locales, tags, latest
+version), never as a file to copy over this one. A wholesale copy silently drops
+every entry that upstream does not carry — that is exactly how `aistudio2api`
+and `freetier` disappeared on 2026-11-09 (`aea2464`).
+
+When syncing an upstream entry:
+
+1. Compare per `id`, never replace the `plugins` array.
+2. Update `version` only when the latest release tag is confirmed and the
+   release carries `checksums.txt` plus platform zips.
+3. Leave every entry upstream does not know about untouched.
+
+`eps-push --from <dir>` mirrors a whole directory with `rsync --delete`, which
+has the same blast radius. Prefer plain `eps-push "<message>"` unless you
+really intend to replace the tree.
+
 ## Consuming the registry
 
 Add the raw URL as an extra plugin store source:
@@ -148,8 +170,11 @@ PY
 This checkout lives only on the Raspberry Pi push host:
 
 ```bash
-eps-push --from . "feat: add <plugin>"
+cd ~/ecpa-plugins-store
+eps-push "feat: add <plugin>"
 ```
+
+Never pass `--from` with a directory that holds only part of the registry.
 
 Then prove the client URL serves the entry rather than trusting the push:
 
