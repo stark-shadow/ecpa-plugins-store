@@ -6,7 +6,7 @@
       "name": "AIStudio2API",
       "description": "CLIProxyAPI native C ABI plugin that exposes Google AI Studio Playground and Build channels as OpenAI, Responses, Claude and Gemini APIs, with an in-process SpiderMonkey BotGuard WAA engine and multi-account cooldown-aware scheduling.",
       "author": "jianli9158",
-      "version": "1.2.2",
+      "version": "1.2.3",
       "repository": "https://github.com/jianli9158/cpa-plugin-aistudio2api",
       "logo": "https://avatars.githubusercontent.com/u/27762760?s=64&v=4",
       "homepage": "https://github.com/jianli9158/cpa-plugin-aistudio2api",
