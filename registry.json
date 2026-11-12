@@ -32,7 +32,7 @@
       "name": "FreeTier 2API",
       "description": "CLIProxyAPI native plugin that turns free-tier quotas from 15 AI coding assistants (WorkBuddy, AutoClaw, Qoder, Raccoon, OpenCode ZEN, Cline, ZCode, Trae, CodeArts, MiniMax Code) into OpenAI, Responses and Anthropic APIs, with an embedded web console for OAuth/API-key accounts, quota tracking, check-in and cross-provider load balancing.",
       "author": "cxy2730",
-      "version": "0.1.58",
+      "version": "0.1.59",
       "repository": "https://github.com/cxy2730/CLIProxyAPI-freetier2api-plugin",
       "logo": "https://avatars.githubusercontent.com/u/49294717?s=64&v=4",
       "homepage": "https://github.com/cxy2730/CLIProxyAPI-freetier2api-plugin",
