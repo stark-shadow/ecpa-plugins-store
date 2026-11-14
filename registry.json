@@ -87,7 +87,7 @@
       "name": "OMC WorkBuddy OAuth",
       "description": "Native WorkBuddy provider for CLIProxyAPI with WorkBuddy and WorkBuddy AI OAuth, model discovery, OpenAI-compatible execution, and normalized quota. Developed as part of the Oh-My-CPA ecosystem.",
       "author": "JUNZE",
-      "version": "0.1.11",
+      "version": "0.1.12",
       "repository": "https://github.com/omc-community/omc-workbuddy-oauth",
       "logo": "https://raw.githubusercontent.com/omc-community/omc-workbuddy-oauth/main/assets/logo.png",
       "homepage": "https://github.com/omc-community/omc-workbuddy-oauth",
