@@ -295,7 +295,7 @@
       "name": "Step2API",
       "description": "StepFun AI Studio (studio.stepfun.com) as a native CLIProxyAPI provider plugin, with OAuth accounts, image input, token usage and client-side tool calls.",
       "author": "WenPaul",
-      "version": "1.0.31",
+      "version": "1.0.32",
       "repository": "https://github.com/wenbaolu6666-design/cpa-plugin-step2api",
       "logo": "https://avatars.githubusercontent.com/u/295666556?s=64&v=4",
       "homepage": "https://github.com/wenbaolu6666-design/cpa-plugin-step2api",
