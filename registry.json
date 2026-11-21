@@ -295,7 +295,7 @@
       "name": "Gemini-Web2API",
       "description": "CLIProxyAPI native plugin, ported from Mag1cFall/Gemini-Web2API, that turns Google Gemini web into OpenAI Chat Completions, OpenAI Responses, Claude Messages and Gemini Native APIs. Chrome 131 TLS/HTTP2 fingerprint emulation, automatic Cookie rotation and keyless Guest sessions, with model catalog, thinking levels, multi-account scheduling, quota panel and one-click local Chrome login.",
       "author": "jianli9158 (Upstream: Mag1cFall)",
-      "version": "1.0.9",
+      "version": "1.0.10",
       "repository": "https://github.com/jianli9158/cpa-plugin-gemini-web2api",
       "logo": "https://avatars.githubusercontent.com/u/27762760?s=64&v=4",
       "homepage": "https://github.com/jianli9158/cpa-plugin-gemini-web2api",
