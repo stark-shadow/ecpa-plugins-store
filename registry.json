@@ -337,6 +337,27 @@
           "description": "将 Amazon QuickWork 接入 CLIProxyAPI，支持原生个人登录、企业 SSO 和流式对话。提供 macOS Apple Silicon 与 Intel、Linux x64 和 Windows x64 安装包；从旧桥接版升级须重新登录。"
         }
       }
+    },
+    {
+      "id": "quick2api",
+      "name": "Amazon Quick (quick2api)",
+      "description": "Native Amazon Quick provider for CLIProxyAPI with browser OAuth, streaming chat, and an account management console. Windows x64 only.",
+      "author": "sbpk2077207",
+      "version": "0.1.49",
+      "repository": "https://github.com/sbpk2077207/quick2api-cliproxyapi",
+      "logo": "https://avatars.githubusercontent.com/u/340166077?s=64&v=4",
+      "homepage": "https://github.com/sbpk2077207/quick2api-cliproxyapi",
+      "license": "MIT",
+      "tags": [
+        "Amazon Quick",
+        "OAuth",
+        "Provider"
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "将 Amazon Quick 接入 CLIProxyAPI 的原生插件，支持浏览器 OAuth、流式对话和账号管理面板。当前仅提供 Windows x64 安装包。"
+        }
+      }
     }
   ]
 }
