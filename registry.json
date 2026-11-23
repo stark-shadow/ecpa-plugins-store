@@ -322,7 +322,7 @@
       "name": "Amazon QuickWork",
       "description": "Amazon QuickWork provider for CLIProxyAPI through an authorized HTTP bridge. Supports streaming Chat Completions. The current stable release is Linux amd64 only and does not support direct AWS sign-in.",
       "author": "stark-shadow",
-      "version": "0.1.0",
+      "version": "0.2.1",
       "repository": "https://github.com/stark-shadow/cpa-plugin-aws-quickwork",
       "logo": "https://avatars.githubusercontent.com/u/352786132?s=64&v=4",
       "homepage": "https://github.com/stark-shadow/cpa-plugin-aws-quickwork",
