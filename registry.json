@@ -54,6 +54,31 @@
       }
     },
     {
+      "id": "qwenwork",
+      "name": "QWork OAuth",
+      "description": "Connects QwenWork to CLIProxyAPI via OAuth, with model access, streaming, quota tracking, and account management. Windows x64 only.",
+      "author": "wangxiaoshuai136",
+      "version": "0.1.0",
+      "repository": "https://github.com/wangxiaoshuai136/cpa-plugin-qwork-oauth",
+      "logo": "https://raw.githubusercontent.com/wangxiaoshuai136/cpa-plugin-qwork-oauth/v0.1.0/assets/icon.png",
+      "homepage": "https://github.com/wangxiaoshuai136/cpa-plugin-qwork-oauth",
+      "license": "MIT",
+      "tags": [
+        "Provider",
+        "Auth",
+        "Quota",
+        "Management"
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "通过 OAuth 将千问办公接入 CLIProxyAPI，支持模型调用、流式响应、额度查询和账号管理。目前仅提供 Windows x64 安装包。"
+        }
+      },
+      "install": {
+        "type": "github-release"
+      }
+    },
+    {
       "id": "doujie-oauth",
       "name": "Doujie OAuth",
       "description": "Unofficial Doujie (doubao) provider for CLIProxyAPI: explicit domestic, Dola international QR sign-in entries plus Windows desktop session import. Adds model discovery, native Anthropic Messages, OpenAI Chat Completions and OpenAI Responses execution, 5h/7d quota windows and reset cards. Regions never switch automatically. Not affiliated with any commercial trademark.",
