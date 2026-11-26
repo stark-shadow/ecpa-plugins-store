@@ -320,9 +320,9 @@
     {
       "id": "aws-quickwork",
       "name": "Amazon QuickWork",
-      "description": "Amazon QuickWork provider for CLIProxyAPI with native personal sign-in, enterprise SSO, and streaming Chat Completions. Packages for macOS Apple Silicon and Intel, Linux x64, and Windows x64. Upgrading from the bridge release requires signing in again.",
+      "description": "Amazon QuickWork provider for CLIProxyAPI with native personal sign-in, enterprise SSO, automatic OAuth refresh, streaming Chat Completions, tool calls, session reuse, oversized prompt attachments, and official monthly quota sync. Packages for macOS Apple Silicon and Intel, Linux x64, and Windows x64.",
       "author": "stark-shadow",
-      "version": "0.2.1",
+      "version": "0.3.1",
       "repository": "https://github.com/stark-shadow/cpa-plugin-aws-quickwork",
       "logo": "https://avatars.githubusercontent.com/u/352786132?s=64&v=4",
       "homepage": "https://github.com/stark-shadow/cpa-plugin-aws-quickwork",
@@ -330,11 +330,12 @@
       "tags": [
         "AWS",
         "Provider",
-        "QuickWork"
+        "QuickWork",
+        "Quota"
       ],
       "locales": {
         "zh-CN": {
-          "description": "将 Amazon QuickWork 接入 CLIProxyAPI，支持原生个人登录、企业 SSO 和流式对话。提供 macOS Apple Silicon 与 Intel、Linux x64 和 Windows x64 安装包；从旧桥接版升级须重新登录。"
+          "description": "将 Amazon QuickWork 接入 CLIProxyAPI，支持原生个人登录、企业 SSO、OAuth 自动刷新、流式对话、工具调用、会话复用、超长附件上传与官方月度额度查询。提供 macOS Apple Silicon 与 Intel、Linux x64 和 Windows x64 安装包。"
         }
       }
     },
