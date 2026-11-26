@@ -322,9 +322,9 @@
       "name": "Amazon QuickWork",
       "description": "Amazon QuickWork provider for CLIProxyAPI with native personal sign-in, enterprise SSO, automatic OAuth refresh, streaming Chat Completions, tool calls, session reuse, oversized prompt attachments, and official monthly quota sync. Packages for macOS Apple Silicon and Intel, Linux x64, and Windows x64.",
       "author": "stark-shadow",
-      "version": "0.3.1",
+      "version": "0.3.2",
       "repository": "https://github.com/stark-shadow/cpa-plugin-aws-quickwork",
-      "logo": "https://avatars.githubusercontent.com/u/352786132?s=64&v=4",
+      "logo": "https://raw.githubusercontent.com/stark-shadow/cpa-plugin-aws-quickwork/main/assets/logo.svg",
       "homepage": "https://github.com/stark-shadow/cpa-plugin-aws-quickwork",
       "license": "MIT",
       "tags": [
