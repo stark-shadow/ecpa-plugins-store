@@ -448,6 +448,29 @@
       "install": {
         "type": "github-release"
       }
+    },
+    {
+      "id": "step2api",
+      "name": "Step2API",
+      "description": "Connects StepFun AI Studio to CLIProxyAPI, with streaming, tool calls, image input, and an integrated account management panel.",
+      "author": "wenbaolu6666-design",
+      "version": "1.0.58",
+      "repository": "https://github.com/wenbaolu6666-design/cpa-plugin-step2api",
+      "logo": "https://avatars.githubusercontent.com/u/295666556?s=64&v=4",
+      "homepage": "https://github.com/wenbaolu6666-design/cpa-plugin-step2api",
+      "tags": [
+        "Provider",
+        "Auth",
+        "Management"
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "将阶跃星辰 AI Studio 接入 CLIProxyAPI，支持流式响应、工具调用和图片输入，内置账号管理面板。"
+        }
+      },
+      "install": {
+        "type": "github-release"
+      }
     }
   ]
 }
