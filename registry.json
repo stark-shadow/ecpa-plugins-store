@@ -359,6 +359,45 @@
           "description": "将 Amazon Quick 接入 CLIProxyAPI 的原生插件，支持浏览器 OAuth、流式对话和账号管理面板。当前仅提供 Windows x64 安装包。"
         }
       }
+    },
+    {
+      "id": "freecredits2api",
+      "name": "FreeCredits2API",
+      "description": "Connects multiple AI providers to CLIProxyAPI and includes shared model pools, model priorities, per-model cooldowns, account and quota management, daily check-ins, and extensible tasks.",
+      "author": "jiandanc/Likhixang/UangSC",
+      "version": "0.2.5",
+      "repository": "https://github.com/UangSC/cpa-freecredits2api-plugin",
+      "logo": "https://raw.githubusercontent.com/UangSC/cpa-freecredits2api-plugin/main/docs/images/logo.svg",
+      "homepage": "https://github.com/UangSC/cpa-freecredits2api-plugin",
+      "license": "MIT",
+      "tags": [
+        "Provider",
+        "WorkBuddy",
+        "Raccoon",
+        "AutoClaw",
+        "CodeBuddy",
+        "Qoder",
+        "QwenWork",
+        "OpenCode",
+        "Cline",
+        "ZCode",
+        "Trae",
+        "CodeArts",
+        "MiniMaxCode",
+        "TokenPlan",
+        "Auth",
+        "Quota",
+        "Management",
+        "Tasks"
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "将多个 AI 供应商接入 CLIProxyAPI，支持同名模型池、模型优先级与独立冷却、账号与额度管理、每日签到及可扩展的活动任务。"
+        }
+      },
+      "install": {
+        "type": "github-release"
+      }
     }
   ]
 }
