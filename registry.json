@@ -441,6 +441,31 @@
       "install": {
         "type": "github-release"
       }
+    },
+    {
+      "id": "xiaoyiwork",
+      "name": "Xiaoyi OAuth",
+      "description": "Xiaoyi OAuth: sign in with a Huawei account (no XiaoyiWork desktop app needed), call Xiaoyi cloud models directly, and see AI points/plan quota. Windows only; PKCE OAuth + encrypted credential storage.",
+      "author": "WenPaul",
+      "version": "0.6.5",
+      "license": "MIT",
+      "tags": [
+        "Provider",
+        "Executor",
+        "Local",
+        "XiaoyiWork"
+      ],
+      "locales": {
+        "zh-CN": {
+          "description": "直接用华为账号登录（无需安装小艺Work），直连小艺云端模型接口；显示 AI 积分/会员额度，自动续期，重写标准 OpenAI 流式分帧与 [DONE]，合并工具调用，支持 low/medium/high 思考档位。 当前仅提供 Windows x64 安装包。"
+        }
+      },
+      "repository": "https://github.com/wangxiaoshuai136/xiaoyi-oauth",
+      "homepage": "https://github.com/wangxiaoshuai136/xiaoyi-oauth",
+      "logo": "https://raw.githubusercontent.com/wangxiaoshuai136/xiaoyi-oauth/v0.6.5/icon.png",
+      "install": {
+        "type": "github-release"
+      }
     }
   ]
 }
