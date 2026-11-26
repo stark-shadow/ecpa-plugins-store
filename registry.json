@@ -398,6 +398,31 @@
       "install": {
         "type": "github-release"
       }
+    },
+    {
+      "id": "cpa-gpt-risk-group-plugin",
+      "name": "Codex Risk Detection & Grouping",
+      "description": "Inspects Codex credential health and model output, tracks quotas and inspection history, and optionally groups credentials by model prefix or routing priority. Detection-only by default.",
+      "author": "UangSC",
+      "version": "0.1.5",
+      "license": "MIT",
+      "repository": "https://github.com/UangSC/cpa-gpt-risk-group-plugin",
+      "homepage": "https://github.com/UangSC/cpa-gpt-risk-group-plugin",
+      "logo": "https://raw.githubusercontent.com/UangSC/cpa-gpt-risk-group-plugin/main/assets/logo.svg",
+      "tags": [
+        "codex",
+        "gpt",
+        "monitoring"
+      ],
+      "locales": {
+        "zh-CN": {
+          "name": "Codex 风控检测与分类",
+          "description": "巡检 Codex 凭证的糖果题回答、三次采样模型指纹与鹈鹕 HTML/SVG 动画，支持在线审片和 HTML 下载，展示证据、多日统计和额度，可按需管理模型前缀或调度优先级。"
+        }
+      },
+      "install": {
+        "type": "github-release"
+      }
     }
   ]
 }
